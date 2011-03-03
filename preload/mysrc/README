@@ -1,0 +1,10 @@
+$ make all
+
+$ HOOKEX_COMMAND=ls LD_PRELOAD=./libhookputs.so ./main
+a.out	config.h   hist		  libhookputs.o   libhookwrite.c  main	  main.h    puts.log
+cat.sh	core.4879  libhookputs.c  libhookputs.so  --library=dl	  main.c  Makefile  tid.c
+hello world!!
+in main : 1, main
+in main : 2, fuga
+$ 
+

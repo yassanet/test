@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <sys/types.h>
+#include <stdlib.h>
+#include <pthread.h>
+
+void* thread_main( void* args )
+{
+	fprintf( stderr, "start thread\n" );
+	fprintf( stderr, "end thread\n" );
+	return NULL;
+}
+
+int main()
+{
+	int i;
+	char command[256];
+	sprintf( command, "grep VmSize /proc/%d/status", getpid() );
+
+	fprintf( stderr, "実行前\n" );
+	system( command );
+
+	for( i=0; i<3; ++i ){
+
+		fprintf( stderr, "実行\n" );
+		pthread_t thread;
+		pthread_create( &thread, NULL, thread_main, (void *)NULL );
+
+		pthread_join( thread, NULL );
+
+		system( command );
+	}
+
+	fprintf( stderr, "end mainthread\n" );
+
+	return 0;
+}
