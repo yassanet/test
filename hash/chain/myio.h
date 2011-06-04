@@ -1,0 +1,1 @@
+int myfgets(char *, int);
