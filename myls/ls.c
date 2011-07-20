@@ -1,8 +1,11 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <dirent.h>
+#include <pwd.h>
 
 int option_l = 0;
 int option_a = 0;
@@ -153,48 +156,75 @@ int main(int argc, char *argv[]) {
 	struct node *node;
 	DIR *dir;
 	struct dirent *dirent;
-	//dir
+	// check file type and print.
 	while( (node = getnode_ite(&list, &iterator)) != NULL) {
 		if(lstat(node->path, node->buf) != 0) {
 			perror("lstat");
 		}
-		if(S_ISDIR(node->buf->st_mode)) {
+		if(S_ISDIR(node->buf->st_mode)) {	// dir
 			fprintf(stdout, "%s:\n", node->path);
 			dir = opendir(node->path);
 			struct stat *buf;
 			buf = malloc(sizeof(struct stat));
 			while( (dirent = readdir(dir)) != NULL) {
 				memset(buf, 0, sizeof(buf));
-				if(option_a != 1 && option_l != 1) {
-					if( strncmp(dirent->d_name, ".", 1)) {
-						fprintf(stdout, "%s\n", dirent->d_name);	
-					}
-				} else if(option_a != 1 && option_l == 1) {
-					if( strncmp(dirent->d_name, ".", 1)) {
+				if(option_a != 1 && strncmp(dirent->d_name, ".", 1)) {
+				} else {
+					if(option_l == 1) {
 						char path[1024];
+						char time[25];
+						struct passwd *pw;
 						memcpy(path, node->path, 1024);
 						strcat(path, dirent->d_name);
 						if(lstat(path, buf) != 0) 
 							perror("lstat");
-						fprintf(stdout, "%o %d %d %d %d", 
-								buf->st_mode, buf->st_nlink, buf->st_uid, 
+						// get username by passwd
+						pw = getpwuid(buf->st_uid);
+						fprintf(stdout, "%o\t%d\t%s\t%d\t%d", 
+								buf->st_mode, buf->st_nlink, pw->pw_name, 
 								buf->st_gid, buf->st_size
 							);
-						fprintf(stdout, " %s %s\n", ctime(&buf->st_mtime), dirent->d_name);
+						memcpy(time, (char *)ctime(&buf->st_mtime), 24);
+						fprintf(stdout, "\t%s\t%s\n", time, dirent->d_name);
+					} else {
+						fprintf(stdout, "%s\n", dirent->d_name);	
 					}
-				} else if(option_a == 1 && option_l != 1) {
-					fprintf(stdout, "%s\n", dirent->d_name);	
-				} else if(option_a == 1 && option_l == 1) {
-					if( strncmp(dirent->d_name, ".", 1)) {
-						char *path = strcat(node->path, dirent->d_name);
-						lstat(path, buf);
-						fprintf(stdout, "0%3o%s\n", buf->st_mode, dirent->d_name);	
-					}
-				}	
+				}
 			}
 			closedir(dir);
-		} else {
-			fprintf(stdout, "%s\n", node->path);
+		} else if(S_ISLNK(node->buf->st_mode)) {	//symbolic link
+			if(option_a != 1 && strncmp(dirent->d_name, ".", 1)) {
+			} else {
+				char *realpath;
+				realpath = realpath(node->path, NULL);
+				char time[25];
+				struct passwd *pw;
+				// get username by passwd
+				pw = getpwuid(node->buf->st_uid);
+				fprintf(stdout, "%o\t%d\t%s\t%d\t%d", 
+						node->buf->st_mode, node->buf->st_nlink, node->buf->st_uid, 
+						node->buf->st_gid, node->buf->st_size
+					);
+				memcpy(time, (char *)ctime(&node->buf->st_mtime), 24);
+				fprintf(stdout, "\t%s\t%s -> %s\n", time, node->path, realpath);
+
+				free(realpath);
+			}
+		} else {	//regular file
+			if(option_l == 1) {
+				char time[25];
+				struct passwd *pw;
+				// get username by passwd
+				pw = getpwuid(node->buf->st_uid);
+				fprintf(stdout, "%o\t%d\t%s\t%d\t%d", 
+						node->buf->st_mode, node->buf->st_nlink, node->buf->st_uid, 
+						node->buf->st_gid, node->buf->st_size
+					);
+				memcpy(time, (char *)ctime(&node->buf->st_mtime), 24);
+				fprintf(stdout, "\t%s\t%s\n", time, node->path);
+			} else {
+				fprintf(stdout, "%s\n", node->path);	
+			}
 		}
 		fprintf(stdout, "\n");
 	}
