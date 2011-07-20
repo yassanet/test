@@ -1,0 +1,5 @@
+ファイルのメタデータの取得 lstat, stat, fstat
+ディレクトリストリーム opendir, readdir
+ファイルの実体取得 realpath
+ファイルレースコンディション対策
+	http://www.ipa.go.jp/security/awareness/vendor/programmingv2/contents/c803.html
