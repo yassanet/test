@@ -1,0 +1,87 @@
+#define _XOPEN_SOURCE	//must first
+#include <stdio.h>
+#include <unistd.h>
+#include "himitsu.h"
+
+
+struct termio tty, tty_save;
+int passwd_len = 10;
+
+void create_secrettext(void) {
+	printf("create_secrettext\n");
+}
+
+void set_passwd_tofile(char *file) {
+	char passwd[passwd_len+1];
+	char *hashpasswd = NULL;
+	FILE *f = NULL;
+//	int *buf = malloc(10240);
+	int *buf = malloc(1024);
+	int getc;
+	int size = 0;
+
+	if(save_passwd(passwd, passwd_len) == 0) {
+		hashpasswd = hash_passwd(passwd, hashpasswd);
+		if(hashpasswd != NULL)
+			fprintf(stdout, "hash passwd = %s\n", hashpasswd);
+	}
+
+	f = fopen(file, "a+");
+	if(f == NULL)
+		return;
+
+	FILE *ftest = fopen("./aa", "a+");
+
+	getc = fgetc(f);
+	do {
+		if(size == 10239) {
+			fprintf(stdout, "too big file...\n");
+			return;
+		}
+		size++;
+		*buf = getc;
+		fprintf(stdout, "%c", *buf);
+		fputc(*buf, ftest);
+		buf++;
+	} while((getc = fgetc(f)) != EOF);
+
+}
+
+void print_file(char *file) {
+	printf("print_file\n");
+}
+
+char *hash_passwd(char *pwd, char *hashpasswd) {
+	char salt[] = "$1$aa$";
+
+	return crypt(pwd, salt);
+}
+
+int save_passwd(char *pwd, int pwd_len) {
+	char pwd_again[pwd_len+1];
+
+	ioctl(0, TCGETA, &tty);
+	tty_save = tty;
+	tty.c_lflag ^= ECHO;
+	tty.c_lflag |= ECHONL;
+	ioctl(0, TCSETAF, &tty);
+
+	fprintf(stdout, "passwd = ");
+	myfgets(pwd, pwd_len+1);
+
+	fprintf(stdout, "again = ");
+	myfgets(pwd_again, pwd_len+1);
+
+	closing();
+
+	if(strncmp(pwd, pwd_again, pwd_len)) {
+		fprintf(stderr, "no match passwd. exit.");
+		return -1;
+	}
+
+	return 0;
+}
+
+void closing(void) {
+	ioctl(0, TCSETAF, &tty_save);
+}

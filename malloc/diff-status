@@ -1,0 +1,816 @@
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+  VmHWM:	     284 kB
+  VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+  VmHWM:	     284 kB
+  VmRSS:	     284 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	4
+! nonvoluntary_ctxt_switches:	3
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     476 kB
+! VmRSS:	     476 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	8
+! nonvoluntary_ctxt_switches:	6
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     476 kB
+! VmRSS:	     476 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	12
+! nonvoluntary_ctxt_switches:	8
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     476 kB
+! VmRSS:	     476 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	16
+! nonvoluntary_ctxt_switches:	8
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     476 kB
+! VmRSS:	     476 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	20
+! nonvoluntary_ctxt_switches:	10
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     476 kB
+! VmRSS:	     476 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	24
+! nonvoluntary_ctxt_switches:	10
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     496 kB
+! VmRSS:	     496 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	28
+! nonvoluntary_ctxt_switches:	12
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     496 kB
+! VmRSS:	     496 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	32
+! nonvoluntary_ctxt_switches:	14
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     496 kB
+! VmRSS:	     496 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	36
+! nonvoluntary_ctxt_switches:	16
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     496 kB
+! VmRSS:	     496 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	40
+! nonvoluntary_ctxt_switches:	18
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     496 kB
+! VmRSS:	     496 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	44
+! nonvoluntary_ctxt_switches:	18
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     520 kB
+! VmRSS:	     520 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	48
+! nonvoluntary_ctxt_switches:	20
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4132 kB
+! VmSize:	    4132 kB
+  VmLck:	       0 kB
+! VmHWM:	     520 kB
+! VmRSS:	     520 kB
+! VmData:	     192 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	52
+! nonvoluntary_ctxt_switches:	22
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4264 kB
+! VmSize:	    4264 kB
+  VmLck:	       0 kB
+! VmHWM:	     520 kB
+! VmRSS:	     520 kB
+! VmData:	     324 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	56
+! nonvoluntary_ctxt_switches:	22
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4264 kB
+! VmSize:	    4264 kB
+  VmLck:	       0 kB
+! VmHWM:	     520 kB
+! VmRSS:	     520 kB
+! VmData:	     324 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	60
+! nonvoluntary_ctxt_switches:	22
+
+*** ./first_status	2011-09-08 08:35:39.499535888 +0900
+--- /proc/2779/status	2011-09-08 08:35:39.499535888 +0900
+*************** Gid:	1000	1000	1000	1000
+*** 9,24 ****
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4080 kB
+! VmSize:	    3988 kB
+  VmLck:	       0 kB
+! VmHWM:	     284 kB
+! VmRSS:	     284 kB
+! VmData:	      48 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      32 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+--- 9,24 ----
+  Utrace:	0
+  FDSize:	256
+  Groups:	1000 
+! VmPeak:	    4264 kB
+! VmSize:	    4264 kB
+  VmLck:	       0 kB
+! VmHWM:	     520 kB
+! VmRSS:	     520 kB
+! VmData:	     324 kB
+  VmStk:	     136 kB
+  VmExe:	       4 kB
+  VmLib:	    1720 kB
+! VmPTE:	      36 kB
+  VmSwap:	       0 kB
+  Threads:	1
+  SigQ:	0/62987
+*************** Cpus_allowed:	ff
+*** 35,39 ****
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	1
+! nonvoluntary_ctxt_switches:	1
+--- 35,39 ----
+  Cpus_allowed_list:	0-7
+  Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+  Mems_allowed_list:	0
+! voluntary_ctxt_switches:	64
+! nonvoluntary_ctxt_switches:	22
+

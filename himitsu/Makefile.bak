@@ -1,0 +1,25 @@
+#
+# Makefile 
+#
+
+PROGRAM = himitsu
+C_FILES = main.c himitsu.c
+CFLAGS += -g -Wall
+INCLUDE =
+LIBPATH =
+CC = gcc
+
+all:$(PROGRAM)
+
+clean:
+	rm -f $(PROGRAM)
+	rm -f *.o
+
+depend:
+	makedepend --$(CFLAGS) --$(INCLUDE) --$(LIBPATH) --$(C_FILES)
+
+$(PROGRAM):$(C_FILES:.c.o)
+	$(CC) $(CFLAGS) $(INCLUDE) $(LIBPATH) -o $@ $(C_FILES:.c.o)
+
+.c.o:
+	$(CC) $(CFLAGS) $(INCLUDE) $(LIBPATH) -c $<

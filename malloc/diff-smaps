@@ -1,0 +1,2416 @@
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                   8 kB
++ Pss:                   8 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:         8 kB
++ Referenced:            8 kB
++ Anonymous:             8 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  12 kB
++ Pss:                  12 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        12 kB
++ Referenced:           12 kB
++ Anonymous:            12 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  16 kB
++ Pss:                  16 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        16 kB
++ Referenced:           16 kB
++ Anonymous:            16 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  20 kB
++ Pss:                  20 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        20 kB
++ Referenced:           20 kB
++ Anonymous:            20 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  24 kB
++ Pss:                  24 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        24 kB
++ Referenced:           24 kB
++ Anonymous:            24 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  28 kB
++ Pss:                  28 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        28 kB
++ Referenced:           28 kB
++ Anonymous:            28 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  32 kB
++ Pss:                  32 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        32 kB
++ Referenced:           32 kB
++ Anonymous:            32 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  36 kB
++ Pss:                  36 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        36 kB
++ Referenced:           36 kB
++ Anonymous:            36 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  40 kB
++ Pss:                  40 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        40 kB
++ Referenced:           40 kB
++ Anonymous:            40 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  44 kB
++ Pss:                  44 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        44 kB
++ Referenced:           44 kB
++ Anonymous:            44 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  48 kB
++ Pss:                  48 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        48 kB
++ Referenced:           48 kB
++ Anonymous:            48 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  52 kB
++ Pss:                  52 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        52 kB
++ Referenced:           52 kB
++ Anonymous:            52 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01136000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                140 kB
++ Rss:                  56 kB
++ Pss:                  56 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        56 kB
++ Referenced:           56 kB
++ Anonymous:            56 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01157000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                272 kB
++ Rss:                  60 kB
++ Pss:                  60 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        60 kB
++ Referenced:           60 kB
++ Anonymous:            60 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01157000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                272 kB
++ Rss:                  64 kB
++ Pss:                  64 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        64 kB
++ Referenced:           64 kB
++ Anonymous:            64 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+
+*** ./first_smaps	2011-09-08 08:35:39.511535891 +0900
+--- /proc/2779/smaps	2011-09-08 08:35:39.511535891 +0900
+*************** Swap:                  0 kB
+*** 28,33 ****
+--- 28,48 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
++ 01113000-01157000 rw-p 00000000 00:00 0                                  [heap]
++ Size:                272 kB
++ Rss:                  68 kB
++ Pss:                  68 kB
++ Shared_Clean:          0 kB
++ Shared_Dirty:          0 kB
++ Private_Clean:         0 kB
++ Private_Dirty:        68 kB
++ Referenced:           68 kB
++ Anonymous:            68 kB
++ AnonHugePages:         0 kB
++ Swap:                  0 kB
++ KernelPageSize:        4 kB
++ MMUPageSize:           4 kB
++ Locked:                0 kB
+  361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+  Size:                124 kB
+  Rss:                 108 kB
+*************** MMUPageSize:           4 kB
+*** 90,102 ****
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 216 kB
+! Pss:                   3 kB
+! Shared_Clean:        216 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          216 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 105,117 ----
+  Locked:                0 kB
+  361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:               1596 kB
+! Rss:                 272 kB
+! Pss:                   4 kB
+! Shared_Clean:        272 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         0 kB
+! Referenced:          272 kB
+  Anonymous:             0 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 120,132 ****
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                   8 kB
+  Pss:                   8 kB
+! Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:            8 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+--- 135,147 ----
+  Locked:                0 kB
+  361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+  Size:                 16 kB
+! Rss:                  12 kB
+  Pss:                   8 kB
+! Shared_Clean:          4 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+  Private_Dirty:         8 kB
+! Referenced:           12 kB
+  Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+*************** MMUPageSize:           4 kB
+*** 150,163 ****
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  12 kB
+! Pss:                  12 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        12 kB
+! Referenced:           12 kB
+! Anonymous:            12 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 165,178 ----
+  Locked:                0 kB
+  361d594000-361d59a000 rw-p 00000000 00:00 0 
+  Size:                 24 kB
+! Rss:                  16 kB
+! Pss:                  16 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:        16 kB
+! Referenced:           16 kB
+! Anonymous:            16 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+*************** Swap:                  0 kB
+*** 178,193 ****
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  4 kB
+! Rss:                   4 kB
+! Pss:                   4 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         4 kB
+! Referenced:            4 kB
+! Anonymous:             4 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+--- 193,208 ----
+  KernelPageSize:        4 kB
+  MMUPageSize:           4 kB
+  Locked:                0 kB
+! 7f3e89d78000-7f3e89d7a000 rw-p 00000000 00:00 0 
+! Size:                  8 kB
+! Rss:                   8 kB
+! Pss:                   8 kB
+  Shared_Clean:          0 kB
+  Shared_Dirty:          0 kB
+  Private_Clean:         0 kB
+! Private_Dirty:         8 kB
+! Referenced:            8 kB
+! Anonymous:             8 kB
+  AnonHugePages:         0 kB
+  Swap:                  0 kB
+  KernelPageSize:        4 kB
+

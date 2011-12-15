@@ -1,0 +1,16 @@
+00400000-00401000 r-xp 00000000 fd:02 3408085                            /home/yassan/00Development/private/test/malloc/a.out
+00600000-00601000 rw-p 00000000 fd:02 3408085                            /home/yassan/00Development/private/test/malloc/a.out
+361ce00000-361ce1f000 r-xp 00000000 fd:01 131101                         /lib64/ld-2.14.so
+361d01e000-361d01f000 r--p 0001e000 fd:01 131101                         /lib64/ld-2.14.so
+361d01f000-361d020000 rw-p 0001f000 fd:01 131101                         /lib64/ld-2.14.so
+361d020000-361d021000 rw-p 00000000 00:00 0 
+361d200000-361d38f000 r-xp 00000000 fd:01 131103                         /lib64/libc-2.14.so
+361d38f000-361d58f000 ---p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+361d58f000-361d593000 r--p 0018f000 fd:01 131103                         /lib64/libc-2.14.so
+361d593000-361d594000 rw-p 00193000 fd:01 131103                         /lib64/libc-2.14.so
+361d594000-361d59a000 rw-p 00000000 00:00 0 
+7f3e89d5f000-7f3e89d62000 rw-p 00000000 00:00 0 
+7f3e89d79000-7f3e89d7a000 rw-p 00000000 00:00 0 
+7fff990e3000-7fff99104000 rw-p 00000000 00:00 0                          [stack]
+7fff99125000-7fff99126000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
